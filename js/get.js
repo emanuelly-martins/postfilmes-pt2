@@ -1,6 +1,6 @@
-const resposta = document.querySelector("resposta");
-const lista = document.querySelector("lista-filmes");
-const modelo = document.querySelector("modelo-filme");
+const resposta = document.querySelector("#resposta");
+const lista = document.querySelector("#lista-filmes");
+const modelo = document.querySelector("#modelo-filme");
 
 
 const apiKey = "cv_TqwFjbwdcQisihRIw4Por7rB2VCyjUoa2gpTBr0yQYQBKqKbg07xO-iyOgBNltrU";
@@ -31,7 +31,7 @@ async function buscarFilmes() {
         for (const filme of resultado.data) {
             // fazer uma copia do modelo que criamos no html
 
-            const card = modelo.textContent.cloneNode(true);
+            const card = modelo.content.cloneNode(true);
 
             // preencher cada item desse card
 

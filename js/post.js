@@ -7,8 +7,7 @@ const resposta = document.querySelector("#resposta");
 // 2 . Comunicacao com a API
 // Lembrete o codeverse tem APIKey ou seja senha nas req.
 
-const apiKey = "";
-cv_TqwFjbwdcQisihRIw4Por7rB2VCyjUoa2gpTBr0yQYQBKqKbg07xO-iyOgBNltrU
+const apiKey = "cv_TqwFjbwdcQisihRIw4Por7rB2VCyjUoa2gpTBr0yQYQBKqKbg07xO-iyOgBNltrU";
 // Tem que falar o link (endpoint)
 const apiUrl = "https://api-ds.codeverse.dev.br/api/filmes";
 

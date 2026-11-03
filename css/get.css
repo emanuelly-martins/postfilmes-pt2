@@ -56,7 +56,7 @@ button:disabled {
 }
 
 /* Lista de heróis */
-#lista-herois {
+#lista-filmes {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -65,7 +65,7 @@ button:disabled {
 }
 
 /* Card de cada herói */
-#lista-herois li {
+#lista-filmes li {
   flex: 1 1 260px;
   min-width: 0;
   background-color: #eff6ff;
